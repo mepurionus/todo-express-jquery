@@ -1,0 +1,21 @@
+#add {
+    width: 450px;
+    height: 100px;
+}
+
+#add #title {
+    width: 150px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid black;
+}
+
+#add #desc {
+    width: 250px;
+    border: 1px solid black;
+}
+
+#add button {
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid black;
+}

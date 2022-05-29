@@ -1,0 +1,9 @@
+extends template.pug 
+
+block content 
+    div(id='add')
+        input(name="title", placeholder="Enter the title", maxlength=50, id="title")
+        input(name="desc", placeholder="Enter the description", maxlength=150, id="desc")
+        button(onclick="add()") Add
+    div(id='listofthings')
+    script(src='/index.js')

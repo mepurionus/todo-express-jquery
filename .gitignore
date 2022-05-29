@@ -1,0 +1,7 @@
+/.git
+/node_modules/
+/.vscode
+
+.env
+.DS_Store
+todo_db.db
